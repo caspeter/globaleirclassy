@@ -4,10 +4,10 @@ body {
   font-family: "Open Sans", Arial;
 }
 .body-text {
-  font-size: 20px;
+  font-size: 30px;
   display: block;
   text-align: center;
-  color: #364e6a;
+  color: #FFF;
   text-align: center;
   display: block;
   width: 80%;
@@ -21,13 +21,13 @@ input {
 }
 label {
   display: block;
-  color: #364e6a;
+  color: #FFF;
   padding-top: 1em;
   text-align: center;
   font-size:50px;
 }
 label:hover {
-  color: #22313f;
+  color: #439bd5;
 }
 #icon {
   font-family: Consolas, monaco, monospace;
@@ -40,15 +40,11 @@ label:hover {
   height: 20px;
   margin-left: 500px;
 }
-a{
-  color: #FFF;
-  text-decoration: underline;
-}
 #expand {
   height: 150px;
   overflow: hidden;
   transition: height 0.5s;
-  background: url(https://www.globaleir.org/wp-content/uploads/2016/03/blog_image1.jpg)  no-repeat center center;
+  background: url(https://www.globaleir.org/wp-content/uploads/2016/09/detroit2.jpg)  no-repeat center center;
   color: #FFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -59,7 +55,7 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 500px;
+  height: 750px;
 }
 #toggle:checked ~ #icon {
   content: "⇡";
