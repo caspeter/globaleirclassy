@@ -22,7 +22,7 @@ input {
 label {
   display: block;
   color: black;
-  padding-top: 1em;
+  padding-top: .3em;
   padding-left: 3em;
   text-align: left;
   font-size:50px;
@@ -45,7 +45,7 @@ label:hover {
   margin-left: 500px;
 }
 #expand {
-  height: 150px;
+  height: 100px;
   overflow: hidden;
   transition: height 0.5s;
   background: url(https://www.globaleir.org/wp-content/uploads/2017/10/pexels-photo-459819.jpeg)  no-repeat center center;
@@ -53,6 +53,8 @@ label:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 section {
   padding: 0 30px;
