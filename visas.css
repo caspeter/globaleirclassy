@@ -30,7 +30,8 @@ label {
   text-shadow: 2px 2px #000;
 }
 label:hover {
-  color: #440d12;
+  color: purple;
+  transition: color 0.5s;
 }
 #icon {
   font-family: Consolas, monaco, monospace;
@@ -47,8 +48,7 @@ label:hover {
   height: 150px;
   overflow: hidden;
   transition: height 0.5s;
-  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/world.jpg)  no-repeat center center;
-  /*background: url(https://www.globaleir.org/wp-content/uploads/2016/09/detroit2.jpg)  no-repeat center center;*/
+  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/passport-1402644_1920.jpg)  no-repeat center center;
   color: #FFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
