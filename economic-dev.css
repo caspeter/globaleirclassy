@@ -15,8 +15,8 @@ body {
   font-weight:700;
   color: #000;
   background: url( https://www.globaleir.org/wp-content/uploads/2017/10/transparent-white-02-02.png) no-repeat center center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 input {
   display: none;
