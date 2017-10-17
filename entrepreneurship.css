@@ -13,7 +13,10 @@ body {
   margin: auto;
   padding-top: 1em;
   font-weight:700;
-  text-shadow: 1px 1px #FFF;
+  background: url( https://www.globaleir.org/wp-content/uploads/2017/10/transparent-white-02-02.png) no-repeat center center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 100px;
 }
 input {
   display: none;
@@ -21,18 +24,18 @@ input {
 }
 label {
   display: block;
-  color: black;
+  color: #000;
   padding-top: .3em;
   padding-left: 3em;
   text-align: left;
   font-size:50px;
   font-weight: bold;
-  text-shadow: 2px 2px #FFF;
+  /*text-shadow: 2px 2px #FFF;*/
 }
-label:hover {
+/*label:hover {
   color: #3b59b7;
   transition: color 0.5s;
-}
+}*/
 #icon-entre {
   font-family: Consolas, monaco, monospace;
   font-weight: bold;
@@ -48,7 +51,7 @@ label:hover {
   height: 100px;
   overflow: hidden;
   transition: height 0.5s;
-  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/pexels-photo-459819.jpeg)  no-repeat center center;
+  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/notebook-less-contrast.jpg)  no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,6 +64,9 @@ section {
 }
 #toggle-entre:checked ~ #expand {
   height: 650px;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: 0.5s;
 }
 #toggle-entre:checked ~ #icon-entre {
   content: "⇡";
