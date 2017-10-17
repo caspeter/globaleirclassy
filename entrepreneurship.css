@@ -45,7 +45,7 @@ label {
   display: inline;
   width: 20px;
   height: 20px;
-  margin-left: 500px;
+  margin-left: 75%;
 }
 #expand {
   height: 100px;
@@ -58,6 +58,7 @@ label {
   background-size: cover;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  transition: 0.5s;
 }
 section {
   padding: 0 30px;

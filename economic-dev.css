@@ -7,7 +7,6 @@ body {
   font-size: 40px;
   display: block;
   text-align: center;
-  text-align: center;
   display: block;
   width: 80%;
   margin: auto;
@@ -45,7 +44,8 @@ label {
   display: inline;
   width: 20px;
   height: 20px;
-  margin-left: 500px;
+  margin-left: 75%;
+  transition: 0.5s;
 }
 #expand {
   height: 100px;

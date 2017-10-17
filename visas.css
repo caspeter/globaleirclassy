@@ -8,13 +8,15 @@ body {
   display: block;
   text-align: center;
   color: #FFF;
-  text-align: center;
   display: block;
   width: 80%;
   margin: auto;
-  padding-top: 1em;
   font-weight:700;
   text-shadow: 1px 1px #000;
+  background: url( https://www.globaleir.org/wp-content/uploads/2017/10/transparent-white-02-02.png) no-repeat center center;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 100px;
 }
 input {
   display: none;
@@ -23,15 +25,17 @@ input {
 label {
   display: block;
   color: #FFF;
-  padding-top: 1em;
-  text-align: center;
+  padding-top: .3em;
+  padding-left: 3em;
+  text-align: left;
   font-size:50px;
   font-weight: bold;
   text-shadow: 2px 2px #000;
 }
-label:hover {
-  color: purple;
-  transition: color 0.5s;
+#toggle:hover ~ #expand {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: 0.5s;
 }
 #icon {
   font-family: Consolas, monaco, monospace;
@@ -42,24 +46,30 @@ label:hover {
   display: inline;
   width: 20px;
   height: 20px;
-  margin-left: 500px;
+  margin-left: 75%;
 }
 #expand {
-  height: 150px;
+  height: 100px;
   overflow: hidden;
   transition: height 0.5s;
-  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/passport-1402644_1920.jpg)  no-repeat center center;
+  background: url(https://www.globaleir.org/wp-content/uploads/2017/10/passport-less-contrast.jpg)  no-repeat center center;
   color: #FFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.5s;
 }
 section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 750px;
+  height: 650px;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: 0.5s;
 }
 #toggle:checked ~ label {
   content: "⇡";
